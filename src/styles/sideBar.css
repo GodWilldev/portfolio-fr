@@ -1,0 +1,49 @@
+.nav-pills {
+    --bs-nav-pills-border-radius: 0rem;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #198754;
+}
+
+
+.sideBar-item :hover {
+    opacity: 0.9 ;
+}
+/*
+.sideBar-link:focus{
+    background-color: #198754;
+}*/
+/*
+.sideBar-item::before{
+    background-color: #198754;
+}
+.sideBar-item::after{
+    background-color: #198754;
+}*/
+
+
+
+/************************** Mobile First ********************/
+#sideBar{
+    min-width: 5rem;
+}
+.sideBar-link{
+    display: flex;
+    flex-direction: column;
+}
+.sideBar-item-text{
+    font-size: smaller;
+}
+
+/************** Medium Devices, Desktops ******************/
+@media only screen and (min-width : 992px) {
+    #sideBar{
+        width: 250px;
+    }
+    .sideBar-link{
+        display: flex;
+        flex-direction: row;
+    }
+    .sideBar-item-text{
+        font-size: medium;
+    }
+}

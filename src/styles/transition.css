@@ -1,0 +1,14 @@
+.itemTab-enter {
+    opacity: 0;
+  }
+  .itemTab-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  .itemTab-exit {
+    opacity: 1;
+  }
+  .itemTab-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+  }

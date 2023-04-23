@@ -1,0 +1,40 @@
+.markdown-style{
+  color: white;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+blockquote {
+    border-left: 3px solid #ddff00;
+    color: #dcf30e;
+    padding-left: 5px;
+    margin-left: 25px;
+  }
+  
+  pre{
+    background-color: #ffffff;
+    padding: 2%;
+    color: rgb(7, 7, 7);
+  }
+  code{
+    background-color: #2d2d3d;
+    color: #dfdfe2;
+  }
+
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  thead{
+    background-color: gray;
+    
+  }
+  /*
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image 
+  }*/
