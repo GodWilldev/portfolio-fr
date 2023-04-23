@@ -1,4 +1,4 @@
-const Script = require("../utilityScripts/script");
+//const Script = require("../utilityScripts/script");
 
 function CardProject({project}) { //a card element
     return (
